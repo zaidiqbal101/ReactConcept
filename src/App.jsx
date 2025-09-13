@@ -6,6 +6,9 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Props from "./pages/Props";
+import Topics1 from "./pages/Topics1";
+import Topics2 from "./pages/Topics2";
+import Form3 from "./pages/Form3";
 function App(){
   return (
     <Router>
@@ -15,12 +18,16 @@ function App(){
       <Link to="/About">About</Link>
       <Link to="/Contact">Contact</Link>
       <Link to="/Props">Props</Link>
+
 </div>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/Contact" element={<Contact/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/Props" element={<Props/>}/>
+        <Route path="/Topics1" element={<Topics1/>}/> 
+        <Route path="/Topics2" element={<Topics2/>}/>
+        <Route path="/Form3" element={<Form3/>}/>
       </Routes>
     </div>
     </Router>
