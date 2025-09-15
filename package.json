@@ -1,7 +1,7 @@
 {
   "name": "react-tailwind-app",
   "version": "0.0.1",
-  "type": "module",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
